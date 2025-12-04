@@ -36,6 +36,7 @@
 You: "Build me a landing page"
 AI: [Generates 500 lines of code]
 You: [Overwhelmed, can't iterate methodically]
+Team member: Uses their own AI to modify further, everyone quickly gets frustrated and throws in the towel!
 ```
 
 **Constitutional workflow:**
