@@ -35,20 +35,71 @@ to help small teams work more efficiently.
 
 ## Brand Voice & Tone
 
-### Voice
-**Choose one primary voice:**
-- [ ] Professional & authoritative (expert, formal, data-driven)
-- [ ] Conversational & friendly (approachable, casual, relatable)
-- [ ] Technical & precise (detailed, specific, analytical)
-- [ ] Inspirational & motivational (energetic, encouraging, bold)
+### Overall Voice
 
-**Your choice:**
+**Define your baseline voice:**
 ```
-Voice: Conversational & friendly with professional credibility
+Example: Conversational professional - approachable but credible
 - Use "you" (second person)
-- Write like talking to a colleague over coffee
-- Avoid jargon unless audience expects it
+- Write like talking to a colleague
+- Avoid unnecessary jargon
 - Use contractions (you're, don't, we'll)
+```
+
+### Intensity Level: [SET YOUR RANGE]
+
+Your content intensity should be **3-6/10** (measured, confident without hype).
+
+| Level | Description | Example |
+|-------|-------------|---------|
+| 1-2 | Too understated | "This might possibly help somewhat" |
+| **3-6** | **Target range** | "This approach significantly reduces manual work" |
+| 7-10 | Too intense | "This REVOLUTIONARY method will TRANSFORM everything!" |
+
+**Forbidden intensity words (7+/10):**
+- obsessed, brutal, massive, revolutionary, crushing it
+- game-changing, mind-blowing, insane, disrupt
+
+**Acceptable intensity words (3-6/10):**
+- great, significant, important, valuable, effective, useful
+
+**Preferred (measured emphasis):**
+- notably, particularly, consistently, reliably, meaningfully
+
+### Four Voice Dimensions
+
+Based on Nielsen Norman Group framework - rate your brand voice:
+
+**1. Funny vs. Serious: [SET 1-5]**
+```
+Example: 4/5 (Mostly Serious)
+- Dry, observational wit permitted
+- No puns or forced wordplay
+- Self-deprecating humor sparingly
+```
+
+**2. Formal vs. Casual: [SET 1-5]**
+```
+Example: 3/5 (Conversational Professional)
+- Use contractions
+- Write as peer, not professor
+- No slang or internet abbreviations
+```
+
+**3. Respectful vs. Irreverent: [SET 1-5]**
+```
+Example: 2/5 (Respectful/Direct)
+- Treat reader as expert
+- Don't over-explain basics
+- Be direct without arrogance
+```
+
+**4. Enthusiastic vs. Matter-of-Fact: [SET 1-5]**
+```
+Example: 5/5 (Matter-of-Fact)
+- Show, don't tell
+- "Reduces latency by 50ms" not "exciting performance gains"
+- Let results speak
 ```
 
 ### Tone Variations by Content Type
@@ -58,6 +109,57 @@ Thought leadership: Confident, insightful, forward-thinking
 Product comparisons: Objective, balanced, data-driven
 Case studies: Story-driven, specific, results-focused
 ```
+
+---
+
+## Prohibited Vocabulary (The Kill List)
+
+**These words/phrases are BANNED** - they create generic AI voice:
+
+### Universal AI Clichés
+
+**Verbs:**
+| Banned | Why | Use Instead |
+|--------|-----|-------------|
+| delve | AI fingerprint | analyze, examine, investigate |
+| unlock | Marketing cliché | enable, access, allow |
+| unleash | Hyperbolic | release, deploy, launch |
+| navigate (metaphorical) | Overused | manage, handle, address |
+| foster | Corporate vagueness | encourage, build, create |
+| leverage (overused) | Jargon | use, apply |
+
+**Nouns:**
+| Banned | Why | Use Instead |
+|--------|-----|-------------|
+| landscape (unless literal) | Lazy metaphor | market, sector, industry |
+| tapestry | GPT poetic cliché | mix, combination, system |
+| realm | Fantasy language | domain, field, area |
+| testament | Passive, clunky | evidence, proof |
+| beacon | Overly dramatic | example, leader, guide |
+| synergy | Corporate buzzword | collaboration, integration |
+
+**Adjectives:**
+| Banned | Why | Use Instead |
+|--------|-----|-------------|
+| bustling | AI cities cliché | busy, active |
+| game-changing | Empty hype | significant, important |
+| paramount | Archaic emphasis | critical, essential |
+| meticulous | Robotic self-description | careful, thorough |
+| seamless | Oversold promise | smooth, integrated |
+| robust | Tech buzzword overuse | strong, reliable |
+
+**Phrases:**
+| Banned | Reason |
+|--------|--------|
+| "In conclusion" | High school essay |
+| "It is important to note" | Filler |
+| "In today's fast-paced world" | Ultimate cliché |
+| "At the end of the day" | Empty transition |
+| "Let's dive in" | AI transition cliché |
+| "Here's the kicker" | Forced drama |
+| "Without further ado" | Dated phrase |
+
+**Auto-fail if any Kill List word found.** Content Writer and Editor must check.
 
 ---
 
@@ -89,10 +191,59 @@ Goals: [e.g., "Find simple, effective solutions quickly"]
 - **Formatting:** Use H2/H3 subheadings every 200-300 words, bullet lists, bold key phrases
 
 ### Research & Citations
-- **Fact-checking:** All statistics and data points must be verified
-- **Citations:** Inline links to authoritative sources
-- **Source quality:** Prefer peer-reviewed studies, industry reports (Gartner, Forrester), government data
-- **Recency:** Data should be <2 years old unless historical
+
+**The "No Hallucination" Clause:**
+> **If a fact is not in the research dossier, it does not exist.**
+
+**Enforcement:**
+- Content Writer: Cannot fabricate—must use `[NEEDS_VERIFICATION]` placeholder for missing facts
+- Fact Checker: Provides verified research only
+- Editor: Auto-fail if hallucinations detected
+
+**Citation Requirements:**
+- **Inline links:** `[descriptive text](URL)` for all claims
+- **Statistics:** Include year: "73% of B2B buyers (DemandGen, 2024)"
+- **Quotes:** Must have exact source attribution
+- **Opinions:** Clearly marked as "We believe..." or "Our experience shows..."
+
+### Source Quality Tiers
+
+Use these tiers to evaluate research sources:
+
+**Tier 1: Primary Sources (Preferred)**
+- Original research reports
+- Government/regulatory data
+- Academic peer-reviewed studies
+- Company financial reports (10-K, annual reports)
+
+**Tier 2: Industry Analysts & Business Publications**
+- Gartner, Forrester, IDC
+- Harvard Business Review, McKinsey Insights
+- Wall Street Journal, Financial Times
+
+**Tier 3: Tech & Industry Publications**
+- TechCrunch, VentureBeat
+- Industry-specific trade publications
+- First Round Review
+
+**Tier 4: Data Aggregators**
+- Statista (statistical data)
+- Pew Research Center
+- LinkedIn Workforce Reports
+
+**Tier 5: Avoid**
+- Generic marketing blogs without data
+- Press releases disguised as research
+- Outdated statistics (>3 years old)
+- Sources without cited sources
+
+**Source Evaluation Criteria:**
+- Published within last 3 years (unless historical context)
+- Author/organization clearly identified
+- Methodology transparent
+- No obvious commercial bias
+
+**Recency:** Data should be <2 years old unless historical context
 
 ### Imagery & Visual Content
 - **Featured image:** Required for every post
