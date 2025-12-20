@@ -30,6 +30,14 @@
 
 ---
 
+## 🚀 Quick Start: AI-Guided Setup
+
+**New to this framework?** Copy the [**Workflow Architect prompt**](./WORKFLOW-ARCHITECT.md) into your AI assistant. It will guide you through 10-15 minutes of conversation to build your complete workflow.
+
+**[→ Try the Workflow Architect](./WORKFLOW-ARCHITECT.md)** *(Recommended for first-time users)*
+
+---
+
 ## What Is This?
 
 The AI Workflow Orchestrator is a **domain-agnostic framework** for building high-quality work using AI agents organized into **adaptive workflows** inspired by resilience theory and panarchy.
@@ -152,6 +160,23 @@ When quality scores < 50 or patterns recur 3+ times:
 ---
 
 ## Quick Start
+
+### 🎯 New: AI-Guided Setup (10-15 minutes)
+
+**Let an AI assistant set up your workflow through conversation**
+
+Copy the [Workflow Architect prompt](./WORKFLOW-ARCHITECT.md) into your AI assistant to get:
+- ✅ Conversational discovery of your personas
+- ✅ Complete workflow.yaml generated
+- ✅ Custom constitution for your domain
+- ✅ Ready-to-use prompts for each persona
+- ✅ Project structure and setup commands
+
+**[→ Get the Workflow Architect Prompt](./WORKFLOW-ARCHITECT.md)**
+
+This is the fastest way to get started - the AI asks you questions about your work and builds everything for you.
+
+---
 
 ### Option 1: Use an Existing Domain (5 minutes)
 
@@ -513,6 +538,12 @@ When lower scales fail (Ω), they can trigger learning at higher scales (α), wh
 
 ---
 
-**Ready to get started?** → [QUICK-START.md](./QUICK-START.md) or [Choose a domain](./domains/)
+## Get Started Now
+
+**🎯 Fastest path:** [**Workflow Architect**](./WORKFLOW-ARCHITECT.md) - AI-guided setup in 10-15 minutes
+
+**📚 Manual setup:** [QUICK-START.md](./QUICK-START.md) - Build your workflow step-by-step
+
+**📖 Use existing:** [Choose a domain](./domains/) - Content writing or software development
 
 **Questions?** → Open an [issue](https://github.com/[org]/ai-workflow-orchestrator/issues) or [discussion](https://github.com/[org]/ai-workflow-orchestrator/discussions)
