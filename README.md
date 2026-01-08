@@ -115,6 +115,8 @@ Tester (K) → Reviewer (Ω) → Retrospective Lead (α)
 
 [Read more: Guide to Defining Your Personas](./guides/defining-your-personas.md)
 
+**Want to see how this translates across domains?** Check out the [Universal Pattern Visual](./core/universal-pattern-visual.md) for a comprehensive guide showing how the same framework applies to software development, grant writing, content creation, and product design with side-by-side comparisons.
+
 ---
 
 ### 3. Four-Tier Memory System
